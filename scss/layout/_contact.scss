@@ -1,0 +1,41 @@
+.contact-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    grid-template-areas:
+    "contact-management contact-publicity"
+    "contact-management-mail contact-publicity-mail"
+    ;
+    font-size: medium;
+    color: rgb(0, 63, 163);   
+
+}
+
+.contact-management{
+    grid-area: contact-management;
+    padding: 25px;
+    border-bottom: 1px solid white;
+    justify-self: center;
+   
+}
+
+.contact-management-mail{
+    grid-area: contact-management-mail;
+    padding: 25px;
+    justify-self: center;
+}
+
+.contact-publicity{
+    grid-area: contact-publicity;
+    border-bottom: 1px solid white;
+    padding: 25px;
+    justify-self: center;
+}
+
+.contact-publicity-mail{
+    grid-area: contact-publicity-mail;
+    padding: 25px;
+    justify-self: center;
+}
+
+

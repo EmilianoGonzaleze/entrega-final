@@ -1,0 +1,665 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Encode Sans', sans-serif;
+  background-color: #edc0b1 !important; }
+
+/*MAIN*/
+.img-swb {
+  position: absolute;
+  margin: 0;
+  margin-top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: #003fa3;
+  background: rgba(0, 0, 0, 0.5); }
+
+.nav-mobile {
+  display: none; }
+
+.menu-img {
+  width: 200px;
+  margin-bottom: 35px; }
+
+.menu-list li {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  padding: auto;
+  border: 1rem;
+  margin: 20px;
+  width: fit-content;
+  flex-shrink: 1;
+  align-self: center; }
+
+.menu-list {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  margin: 1fr; }
+
+header {
+  width: 100%; }
+
+body {
+  height: 100vh; }
+
+h2 {
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large; }
+
+.email-join {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  padding: 20px;
+  gap: 15px; }
+
+.form-control {
+  background-color: #eccec3; }
+
+.btn-primary {
+  border: none; }
+
+.menu-link {
+  display: flex;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #003fa3; }
+
+.img {
+  margin: 20px;
+  display: block;
+  margin: auto;
+  width: 50%; }
+
+footer-box {
+  width: 100%;
+  justify-content: center; }
+
+footer-img {
+  width: 100%;
+  justify-content: center;
+  padding: 200px; }
+
+.contact-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "contact-management contact-publicity" "contact-management-mail contact-publicity-mail";
+  font-size: medium;
+  color: #003fa3; }
+
+.contact-management {
+  grid-area: contact-management;
+  padding: 25px;
+  border-bottom: 1px solid white;
+  justify-self: center; }
+
+.contact-management-mail {
+  grid-area: contact-management-mail;
+  padding: 25px;
+  justify-self: center; }
+
+.contact-publicity {
+  grid-area: contact-publicity;
+  border-bottom: 1px solid white;
+  padding: 25px;
+  justify-self: center; }
+
+.contact-publicity-mail {
+  grid-area: contact-publicity-mail;
+  padding: 25px;
+  justify-self: center; }
+
+.container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "date-1 location-1 country-1 ticket-1" "date-2 location-2 country-2 ticket-2" "date-3 location-3 country-3 ticket-3" "date-4 location-4 country-4 ticket-4";
+  justify-content: left space-between;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-left: 5%;
+  align-content: center;
+  background-color: #edc0b1;
+  flex-wrap: nowrap; }
+
+.date-1 {
+  grid-area: date-1;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.date-2 {
+  grid-area: date-2;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.date-3 {
+  grid-area: date-3;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.date-4 {
+  grid-area: date-4;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.location-1 {
+  grid-area: location-1;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.location-2 {
+  grid-area: location-2;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.location-3 {
+  grid-area: location-3;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.location-4 {
+  grid-area: location-4;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.country-1 {
+  grid-area: country-1;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.country-2 {
+  grid-area: country-2;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.country-3 {
+  grid-area: country-3;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.country-4 {
+  grid-area: country-4;
+  border-bottom: 0.5px solid white;
+  padding: 15px; }
+
+.ticket-1 {
+  grid-area: ticket-1;
+  border-bottom: 0.5px solid white;
+  padding: 15px;
+  padding-left: 25%; }
+
+.ticket-2 {
+  grid-area: ticket-2;
+  border-bottom: 0.5px solid white;
+  padding: 15px;
+  padding-left: 25%; }
+
+.ticket-3 {
+  grid-area: ticket-3;
+  border-bottom: 0.5px solid white;
+  padding: 15px;
+  padding-left: 25%; }
+
+.ticket-4 {
+  grid-area: ticket-4;
+  border-bottom: 0.5px solid white;
+  padding: 15px;
+  padding-left: 25%; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-style: none; }
+
+a:hover {
+  color: #003fa3; }
+
+.separator-articles {
+  border: 0.01px solid;
+  margin: 0px;
+  color: white; }
+
+.article-title {
+  display: flex;
+  justify-content: start;
+  align-self: center;
+  font-size: x-large; }
+
+.articles {
+  display: flex;
+  width: auto;
+  justify-content: space-evenly;
+  padding: 2rem; }
+
+.article-cds {
+  font-size: x-large; }
+
+.article-vinyl {
+  font-size: x-large; }
+
+.article-posters {
+  font-size: x-large; }
+
+.articles a {
+  padding: 5px;
+  text-decoration: none;
+  text-decoration: underline white 0.5px; }
+
+/**  STORE  **/
+.container-articles .cds {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 0.2fr);
+  grid-template-areas: "cd-1 cd-2 cd-3" "cd-1-title cd-2-title cd-3-title"; }
+
+/*CDS*/
+.cd-img-1 {
+  grid-area: cd-1;
+  justify-self: center;
+  width: 300px; }
+
+.cd-img-1:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1.03);
+  transition: 1s ease; }
+
+.cd-1-title {
+  margin-top: 2%;
+  grid-area: cd-1-title;
+  justify-self: center; }
+
+.cd-img-2 {
+  grid-area: cd-2;
+  justify-self: center;
+  width: 300px; }
+
+.cd-img-2:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1.03);
+  transition: 1s ease; }
+
+.cd-2-title {
+  margin-top: 2%;
+  grid-area: cd-2-title;
+  justify-self: center; }
+
+.cd-img-3 {
+  grid-area: cd-3;
+  justify-self: center;
+  width: 300px; }
+
+.cd-img-3:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1.03);
+  transition: 1s ease; }
+
+.cd-3-title {
+  margin-top: 2%;
+  grid-area: cd-3-title;
+  justify-self: center; }
+
+/*GRIDS VINYL*/
+.container-articles .vinyl {
+  display: grid;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 0.2fr);
+  grid-template-areas: "vinyl-1 vinyl-2 vinyl-3" "vinyl-1-title vinyl-2-title vinyl-3-title"; }
+
+/*VINYL*/
+.vinyl-img-1 {
+  grid-area: vinyl-1;
+  justify-self: center;
+  width: 300px; }
+
+.vinyl-img-1:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1.03);
+  transition: 1s ease; }
+
+.vinyl-1-title {
+  margin-top: 2%;
+  grid-area: vinyl-1-title;
+  justify-self: center; }
+
+.vinyl-img-2 {
+  grid-area: vinyl-2;
+  justify-self: center;
+  width: 300px; }
+
+.vinyl-img-2:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1.03);
+  transition: 1s ease; }
+
+.vinyl-2-title {
+  margin-top: 2%;
+  grid-area: vinyl-2-title;
+  justify-self: center; }
+
+.vinyl-img-3 {
+  grid-area: vinyl-3;
+  justify-self: center;
+  width: 300px; }
+
+.vinyl-img-3:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1.03);
+  transition: 1s ease; }
+
+.vinyl-3-title {
+  margin-top: 2%;
+  grid-area: vinyl-3-title;
+  justify-self: center; }
+
+/*GRIDS POSTERS*/
+.container-articles .posters {
+  display: grid;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 0.2fr);
+  grid-template-areas: "poster-1 poster-2 poster-3" "poster-1-title poster-2-title poster-3-title"; }
+
+/*POSTER*/
+.poster-img-1 {
+  grid-area: poster-1;
+  justify-self: center;
+  width: 300px; }
+
+.poster-img-1:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1.03);
+  transition: 1s ease; }
+
+.poster-1-title {
+  margin-top: 2%;
+  grid-area: poster-1-title;
+  justify-self: center; }
+
+.poster-img-2 {
+  grid-area: poster-2;
+  justify-self: center;
+  width: 300px; }
+
+.poster-img-2:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1.03);
+  transition: 1s ease; }
+
+.poster-2-title {
+  margin-top: 2%;
+  grid-area: poster-2-title;
+  justify-self: center; }
+
+.poster-img-3 {
+  grid-area: poster-3;
+  justify-self: center;
+  width: 300px; }
+
+.poster-img-3:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1.03);
+  transition: 1s ease; }
+
+.poster-3-title {
+  margin-top: 2%;
+  grid-area: poster-3-title;
+  justify-self: center; }
+
+.album-description {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+@keyframes display {
+  0% {
+    transform: translateX(90px);
+    opacity: 0; }
+  10% {
+    transform: translateX(0);
+    opacity: 1; }
+  20% {
+    transform: translateX(0);
+    opacity: 1; }
+  30% {
+    transform: translateX(-90px);
+    opacity: 0; }
+  100% {
+    transform: translateX(-90px);
+    opacity: 0; } }
+
+.review-ctn > div {
+  position: absolute;
+  opacity: 0;
+  animation: display 38s infinite; }
+
+div:nth-child(2) {
+  animation-delay: 8s; }
+
+div:nth-child(3) {
+  animation-delay: 18s; }
+
+div:nth-child(4) {
+  animation-delay: 28s; }
+
+/*aaaaaaaaaaaaa grid*/
+.swb-out-grid {
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 20em 1fr;
+  grid-template-areas: ". carousel ." "pic review ."; }
+
+.swb-img {
+  margin-top: 5%;
+  grid-area: review; }
+
+.swb-spotify {
+  margin-top: 5%;
+  grid-area: pic; }
+
+.review-ctn .pic {
+  width: 80%;
+  justify-content: center;
+  justify-self: center;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: x-large;
+  grid-area: carousel; }
+
+.alb-desc {
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter; }
+
+/*  BREAKPOINT TABLET  */
+@media (max-width: 920px) {
+  .nav {
+    display: none !important; }
+  .nav-mobile {
+    display: contents; }
+  h2 {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    margin-top: 90px; }
+  .offcanvas-body {
+    font-size: x-large; }
+  .pe-1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    border-width: 10rem; }
+  .container {
+    font-size: 0.9rem; }
+  .img {
+    padding-top: 5rem;
+    padding-bottom: 2rem; }
+  /*INDEX*/
+  .menu-list li {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding: auto;
+    border: 1rem;
+    margin: 20px;
+    width: fit-content;
+    flex-shrink: 1;
+    align-self: center; }
+  .menu-list {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap; }
+  .menu-link {
+    display: flex;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #003fa3; }
+  .menu-img {
+    width: 110px; }
+  /*STORE GRID*/
+  /*GRIDS CDS*/
+  /*CDS*/
+  .cd-img-1 {
+    width: 150px; }
+  .cd-img-2 {
+    width: 150px; }
+  .cd-img-3 {
+    width: 150px; }
+  /*GRIDS VINYL*/
+  /*VINYL*/
+  .vinyl-img-1 {
+    width: 150px; }
+  .vinyl-img-2 {
+    width: 150px; }
+  .vinyl-img-3 {
+    width: 150px; }
+  /*GRIDS POSTERS*/
+  /*POSTER*/
+  .poster-img-1 {
+    width: 150px; }
+  .poster-img-2 {
+    width: 150px; }
+  .poster-img-3 {
+    width: 150px; } }
+
+.img-swb {
+  top: 40%; }
+
+/*  BREAKPOINT MOBILE*/
+@media (max-width: 560px) {
+  .nav-mobile {
+    display: contents; }
+  .nav {
+    display: none; }
+  .separator {
+    display: none; }
+  /*TOUR*/
+  .container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "date-1 location-1 country-1 ticket-1" "date-2 location-2 country-2 ticket-2" "date-3 location-3 country-3 ticket-3" "date-4 location-4 country-4 ticket-4";
+    justify-content: left space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-left: 5%;
+    align-content: center;
+    background-color: #edc0b1;
+    flex-wrap: wrap; }
+  /*STORE GRID*/
+  /*GRIDS CDS*/
+  .container-articles .cds {
+    pointer-events: none;
+    display: grid;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 0.2fr);
+    grid-template-areas: "cd-1" "cd-1-title" "cd-2" "cd-2-title" "cd-3" "cd-3-title"; }
+  /*CDS*/
+  .cd-img-1 {
+    width: 250px; }
+  .cd-1-title {
+    margin-top: 2%; }
+  .cd-img-2 {
+    width: 250px; }
+  .cd-2-title {
+    margin-top: 2%; }
+  .cd-img-3 {
+    width: 250px; }
+  .cd-3-title {
+    margin-top: 2%; }
+  /*GRIDS VINYL*/
+  .container-articles .vinyl {
+    pointer-events: none;
+    display: grid;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 0.2fr);
+    grid-template-areas: "vinyl-1" "vinyl-1-title" "vinyl-2" "vinyl-2-title" "vinyl-3" "vinyl-3-title"; }
+  /*VINYL*/
+  .vinyl-img-1 {
+    width: 250px; }
+  .vinyl-1-title {
+    margin-top: 2%; }
+  .vinyl-img-2 {
+    width: 250px; }
+  .vinyl-2-title {
+    margin-top: 2%; }
+  .vinyl-img-3 {
+    width: 250px; }
+  .vinyl-3-title {
+    margin-top: 2%; }
+  /*GRIDS POSTERS*/
+  .container-articles .posters {
+    pointer-events: none;
+    display: grid;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 0.2fr);
+    grid-template-areas: "poster-1" "poster-1-title" "poster-2" "poster-2-title" "poster-3" "poster-3-title"; }
+  /*POSTER*/
+  .poster-img-1 {
+    width: 250px; }
+  .poster-1-title {
+    margin-top: 2%; }
+  .poster-img-2 {
+    width: 250px; }
+  .poster-2-title {
+    margin-top: 2%; }
+  .poster-img-3 {
+    width: 250px; }
+  .poster-3-title {
+    margin-top: 2%; } }

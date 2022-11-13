@@ -1,0 +1,95 @@
+                                                        /*MAIN*/
+
+.img-swb{
+    position: absolute;
+    margin: 0;
+    margin-top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 63, 163);
+    background: rgba(0,0,0,0.5)
+    
+}
+
+.nav-mobile {
+    display: none;
+}
+.menu-img {
+    width: 200px;
+    margin-bottom: 35px;
+    
+}
+.menu-list li {
+    display: inline-flex ;
+    flex-wrap: nowrap;
+    padding: auto;
+    border: 1rem;
+    margin: 20px;
+    width: fit-content;
+    flex-shrink: 1;
+    align-self: center;
+    
+}
+
+.menu-list {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin: 1fr;
+    
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+}
+
+
+h2 {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    display:flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.email-join{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    padding: 20px;
+    gap: 15px;
+    
+}
+
+.form-control {
+    background-color: rgb(236, 206, 195);
+}
+
+.btn-primary{
+    border: none;
+}
+
+
+
+
+.menu-link {
+    display: flex;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: rgb(0, 63, 163);
+
+}
+
+.img{
+    margin: 20px;
+    display: block;
+    margin: auto;
+    width: 50%;
+    
+}

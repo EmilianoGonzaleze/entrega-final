@@ -1,0 +1,86 @@
+.album-description{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  
+  @keyframes display {
+    0% {
+      transform: translateX(90px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-90px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-90px);
+      opacity: 0;
+    }
+  }
+  
+  
+  .review-ctn > div {
+    position:absolute;
+    opacity: 0;
+    animation: display 38s infinite;
+  }
+  
+  div:nth-child(2) {
+    animation-delay: 8s;
+  }
+  div:nth-child(3) {
+    animation-delay: 18s;
+  }
+  div:nth-child(4) {
+    animation-delay: 28s;
+  }
+
+/*aaaaaaaaaaaaa grid*/
+.swb-out-grid{
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows:  20em 1fr;
+  grid-template-areas:
+  ". carousel ."
+  "pic review ."
+  ;
+
+
+  }
+
+  .swb-img{
+    margin-top: 5%;
+    grid-area: review;
+  }
+
+  .swb-spotify{
+    margin-top: 5%;
+    grid-area: pic;
+  }
+
+  .review-ctn .pic{
+    width: 80%;
+    justify-content: center;
+    justify-self: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: x-large;
+    grid-area: carousel;
+  }
+
+  .alb-desc{
+    
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+  }

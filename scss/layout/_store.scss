@@ -1,0 +1,243 @@
+.separator-articles{
+    border: 0.01px solid;
+    margin: 0px;
+    color: white;
+
+}
+
+.article-title{
+    display: flex;
+    justify-content: start;
+    align-self: center;
+    font-size: x-large;
+}
+
+.articles{
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    padding: 2rem;
+    
+}
+.article-cds {
+    font-size: x-large;
+}
+.article-vinyl {
+    font-size: x-large;
+}
+.article-posters {
+    font-size: x-large;
+}
+
+
+.articles a {
+    padding: 5px;
+    text-decoration: none;
+    text-decoration: underline white 0.5px;
+}
+
+                                                    /**  STORE  **/
+
+    .container-articles .cds{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 0.2fr);
+        grid-template-areas:
+        "cd-1 cd-2 cd-3"
+        "cd-1-title cd-2-title cd-3-title"
+        ;
+        
+
+    }
+
+    /*CDS*/
+    .cd-img-1{
+        grid-area: cd-1;
+        justify-self: center;
+        width: 300px;
+    }
+    .cd-img-1:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.03);
+        transition: 1s ease;
+    }
+    .cd-1-title {
+        margin-top: 2%;
+        grid-area: cd-1-title;
+        justify-self: center;
+
+    }
+    .cd-img-2{
+        grid-area: cd-2;
+        justify-self: center;
+        width: 300px;
+    }
+    .cd-img-2:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.03);
+        transition: 1s ease;
+    }
+    .cd-2-title {
+        margin-top: 2%;
+        grid-area: cd-2-title;
+        justify-self: center;
+
+    }
+
+    .cd-img-3{
+        grid-area: cd-3;
+        justify-self: center;
+        width: 300px;
+    }
+    .cd-img-3:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.03);
+        transition: 1s ease;
+    }
+    .cd-3-title {
+        margin-top: 2%;
+        grid-area: cd-3-title;
+        justify-self: center;
+
+    }
+
+    /*GRIDS VINYL*/
+    .container-articles .vinyl{
+        display: grid;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 0.2fr);
+        grid-template-areas:
+        "vinyl-1 vinyl-2 vinyl-3"
+        "vinyl-1-title vinyl-2-title vinyl-3-title"
+        ;
+
+    }
+
+    /*VINYL*/
+    .vinyl-img-1{
+        grid-area: vinyl-1;
+        justify-self: center;
+        width: 300px;
+    }
+    .vinyl-img-1:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.03);
+        transition: 1s ease;
+    }
+    .vinyl-1-title {
+        margin-top: 2%;
+        grid-area: vinyl-1-title;
+        justify-self: center;
+
+    }
+    .vinyl-img-2{
+        grid-area: vinyl-2;
+        justify-self: center;
+        width: 300px;
+    }
+    .vinyl-img-2:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.03);
+        transition: 1s ease;
+    }
+    .vinyl-2-title {
+        margin-top: 2%;
+        grid-area: vinyl-2-title;
+        justify-self: center;
+
+    }
+
+    .vinyl-img-3{
+        grid-area: vinyl-3;
+        justify-self: center;
+        width: 300px;
+    }
+    .vinyl-img-3:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.03);
+        transition: 1s ease;
+    }
+    .vinyl-3-title {
+        margin-top: 2%;
+        grid-area: vinyl-3-title;
+        justify-self: center;
+
+    }
+
+    /*GRIDS POSTERS*/
+    .container-articles .posters{
+        display: grid;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 0.2fr);
+        grid-template-areas:
+        "poster-1 poster-2 poster-3"
+        "poster-1-title poster-2-title poster-3-title"
+        ;
+
+    }
+
+    /*POSTER*/
+    .poster-img-1{
+        grid-area: poster-1;
+        justify-self: center;
+        width: 300px;
+    }
+    .poster-img-1:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.03);
+        transition: 1s ease;
+    }
+    .poster-1-title {
+        margin-top: 2%;
+        grid-area: poster-1-title;
+        justify-self: center;
+
+    }
+    .poster-img-2{
+        grid-area: poster-2;
+        justify-self: center;
+        width: 300px;
+    }
+    .poster-img-2:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.03);
+        transition: 1s ease;
+    }
+    .poster-2-title {
+        margin-top: 2%;
+        grid-area: poster-2-title;
+        justify-self: center;
+
+    }
+
+    .poster-img-3{
+        grid-area: poster-3;
+        justify-self: center;
+        width: 300px;
+    }
+    .poster-img-3:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.03);
+        transition: 1s ease;
+    }
+    .poster-3-title {
+        margin-top: 2%;
+        grid-area: poster-3-title;
+        justify-self: center;
+
+    }

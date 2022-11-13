@@ -1,0 +1,132 @@
+/*  BREAKPOINT TABLET  */
+
+@media (max-width: 920px) {
+
+    .nav {
+        display: none !important;
+    }
+
+    .nav-mobile {
+        display: contents;
+    }
+
+    h2 {
+        border-top: 1px black solid;
+        border-bottom: 1px black solid;
+        margin-top: 90px;
+    }
+
+    .offcanvas-body  {
+        font-size: x-large;
+        
+    }
+
+   .pe-1 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: center;  
+        border-width: 10rem;    
+
+    }
+
+    .container {
+        font-size: 0.9rem;
+    }
+
+    .img{
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+
+    /*INDEX*/
+.menu-list li {
+    display: inline-flex ;
+    flex-wrap: nowrap;
+    padding: auto;
+    border: 1rem;
+    margin: 20px;
+    width: fit-content;
+    flex-shrink: 1;
+    align-self: center;
+    
+}
+
+.menu-list {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+
+}
+
+
+.menu-link {
+    display: flex;
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(0, 63, 163);
+
+}
+
+.menu-img {
+    width: 110px;
+}
+
+    /*STORE GRID*/
+
+    /*GRIDS CDS*/
+
+
+    /*CDS*/
+    .cd-img-1{
+        width: 150px;
+    }
+ 
+    .cd-img-2{
+        width: 150px;
+    }
+
+    .cd-img-3{
+
+        width: 150px;
+    }
+
+    /*GRIDS VINYL*/
+
+
+    /*VINYL*/
+    .vinyl-img-1{
+        width: 150px;
+    }
+    
+    .vinyl-img-2{
+        width: 150px;
+    }
+
+    .vinyl-img-3{
+        width: 150px;
+    }
+
+
+    /*GRIDS POSTERS*/
+
+    /*POSTER*/
+    .poster-img-1{
+        width: 150px;
+    }
+
+    .poster-img-2{
+        width: 150px;
+    }
+
+    .poster-img-3{
+        width: 150px;
+    }
+}
+
+.img-swb{
+    top: 40%;
+}

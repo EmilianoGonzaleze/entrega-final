@@ -1,0 +1,124 @@
+.container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "date-1 location-1 country-1 ticket-1"
+    "date-2 location-2 country-2 ticket-2"
+    "date-3 location-3 country-3 ticket-3"
+    "date-4 location-4 country-4 ticket-4";
+    
+    justify-content: left space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-left: 5%;
+    align-content: center; 
+    background-color: rgb(237,192,177);
+    flex-wrap: nowrap;
+    
+}
+
+
+.date-1 {
+    grid-area: date-1;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+    
+}
+.date-2 {
+    grid-area: date-2;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+.date-3 {
+    grid-area: date-3;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+.date-4 {
+    grid-area: date-4;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+
+.location-1 {
+    grid-area: location-1;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+.location-2 {
+    grid-area: location-2;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+.location-3 {
+    grid-area: location-3;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+.location-4 {
+    grid-area: location-4;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+
+.country-1 {
+    grid-area: country-1;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+.country-2 {
+    grid-area: country-2;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+.country-3 {
+    grid-area: country-3;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+}
+.country-4 {
+    grid-area: country-4;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+
+}
+
+.ticket-1 {
+    grid-area: ticket-1;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+    padding-left: 25%;
+}
+.ticket-2 {
+    grid-area: ticket-2;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+    padding-left: 25%;
+}
+.ticket-3 {
+    grid-area: ticket-3;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+    padding-left: 25%;
+}
+.ticket-4 {
+    grid-area: ticket-4;
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+    padding-left: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border-style: none;
+}
+
+
+a:hover {
+    color: rgb(0, 63, 163);
+}
