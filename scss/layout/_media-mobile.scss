@@ -1,5 +1,7 @@
 /*  BREAKPOINT MOBILE*/
 
+
+
 @media (max-width: 560px) {
 
     .nav-mobile {
@@ -153,5 +155,42 @@
         .poster-3-title {
             margin-top: 2%;
 
+        }
+
+        .nav {
+            display: none !important;
+        }
+        
+        .nav-mobile {
+            display: contents;
+        }
+        
+        h2 {
+            border-top: 1px black solid;
+            border-bottom: 1px black solid;
+            margin-top: 90px;
+        }
+        
+        .offcanvas-body  {
+            font-size: x-large;
+            
+        }
+        
+        .pe-1 {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            justify-content: center;  
+            border-width: 10rem;    
+        
+        }
+        
+        .container {
+            font-size: 0.9rem;
+        }
+        
+        .img{
+            padding-top: 5rem;
+            padding-bottom: 2rem;
         }
     }

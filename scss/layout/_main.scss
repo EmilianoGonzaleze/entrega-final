@@ -15,6 +15,7 @@
 .nav-mobile {
     display: none;
 }
+
 .menu-img {
     width: 200px;
     margin-bottom: 35px;
@@ -58,6 +59,11 @@ h2 {
     justify-content: center;
     font-size: xx-large;
 }
+
+h3{
+    text-align: center; 
+}
+
 .email-join{
     display: flex;
     justify-content: center;
@@ -92,4 +98,16 @@ h2 {
     margin: auto;
     width: 50%;
     
+}
+
+.div-date{
+    border-bottom: 0.5px solid white;
+}
+
+.div-news{
+    margin-left: 5%;
+}
+
+footer{
+    border-top: 0.5px solid white;
 }

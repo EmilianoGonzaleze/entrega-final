@@ -54,6 +54,9 @@ h2 {
   justify-content: center;
   font-size: xx-large; }
 
+h3 {
+  text-align: center; }
+
 .email-join {
   display: flex;
   justify-content: center;
@@ -79,14 +82,26 @@ h2 {
   margin: auto;
   width: 50%; }
 
-footer-box {
-  width: 100%;
+.div-date {
+  border-bottom: 0.5px solid white; }
+
+.div-news {
+  margin-left: 5%; }
+
+footer {
+  border-top: 0.5px solid white; }
+
+.footer-box {
+  display: flex;
   justify-content: center; }
 
-footer-img {
-  width: 100%;
+.footer-img {
+  width: 25px;
   justify-content: center;
-  padding: 200px; }
+  margin: 15px; }
+
+body {
+  height: 100vh; }
 
 .contact-list {
   display: grid;
@@ -225,6 +240,9 @@ a {
 
 a:hover {
   color: #003fa3; }
+
+.ticket {
+  text-decoration: line-through #003fa3; }
 
 .separator-articles {
   border: 0.01px solid;
@@ -662,4 +680,25 @@ div:nth-child(4) {
   .poster-img-3 {
     width: 250px; }
   .poster-3-title {
-    margin-top: 2%; } }
+    margin-top: 2%; }
+  .nav {
+    display: none !important; }
+  .nav-mobile {
+    display: contents; }
+  h2 {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    margin-top: 90px; }
+  .offcanvas-body {
+    font-size: x-large; }
+  .pe-1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    border-width: 10rem; }
+  .container {
+    font-size: 0.9rem; }
+  .img {
+    padding-top: 5rem;
+    padding-bottom: 2rem; } }
