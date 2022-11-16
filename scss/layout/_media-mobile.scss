@@ -193,4 +193,25 @@
             padding-top: 5rem;
             padding-bottom: 2rem;
         }
+        .review-ctn .pic{
+            margin-left: -40px;
+            padding: 0;
+            font-size: small;
+            text-align: center;
+            flex-wrap: wrap;
+            width: 70%;
+        }
+        .swb-out-grid{
+            width: 70%;
+            justify-self: center;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows:  200px 250px 450px;
+            grid-template-areas:
+            "carousel"
+            "review"
+            "pic"
+            ;
+        }
     }

@@ -505,13 +505,11 @@ div:nth-child(4) {
   grid-area: pic; }
 
 .review-ctn .pic {
-  width: 80%;
   justify-content: center;
   justify-self: center;
   margin-left: 5%;
   margin-top: 5%;
-  font-size: x-large;
-  grid-area: carousel; }
+  font-size: x-large; }
 
 .alb-desc {
   font-size: large;
@@ -596,10 +594,21 @@ div:nth-child(4) {
   .poster-img-2 {
     width: 150px; }
   .poster-img-3 {
-    width: 150px; } }
-
-.img-swb {
-  top: 40%; }
+    width: 150px; }
+  .review-ctn .pic {
+    font-size: medium;
+    margin-left: -190px;
+    padding: 0;
+    font-size: x-large;
+    text-align: center; }
+  .swb-out-grid {
+    width: 50%;
+    justify-self: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.3fr 1fr 1fr;
+    grid-template-areas: "carousel" "review" "pic"; } }
 
 /*  BREAKPOINT MOBILE*/
 @media (max-width: 560px) {
@@ -712,4 +721,19 @@ div:nth-child(4) {
     font-size: 0.5rem; }
   .img {
     padding-top: 5rem;
-    padding-bottom: 2rem; } }
+    padding-bottom: 2rem; }
+  .review-ctn .pic {
+    margin-left: -40px;
+    padding: 0;
+    font-size: small;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 70%; }
+  .swb-out-grid {
+    width: 70%;
+    justify-self: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 250px 450px;
+    grid-template-areas: "carousel" "review" "pic"; } }
