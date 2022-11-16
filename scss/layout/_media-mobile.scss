@@ -7,7 +7,7 @@
     .nav-mobile {
         display: contents; }
       .nav {
-        display: none; }
+        display: none !important; }
       .separator {
         display: none; }
 
@@ -172,21 +172,21 @@
         }
         
         .offcanvas-body  {
-            font-size: x-large;
+            font-size: medium;
             
         }
         
         .pe-1 {
             display: flex;
             flex-direction: column;
-            row-gap: 20px;
+            row-gap: 10px;
             justify-content: center;  
-            border-width: 10rem;    
+            border-width: 5rem;    
         
         }
         
         .container {
-            font-size: 0.9rem;
+            font-size: 0.5rem;
         }
         
         .img{
