@@ -5,79 +5,88 @@
 @media (max-width: 560px) {
 
     .nav-mobile {
-        display: contents; }
-      .nav {
-        display: none !important; }
-      .separator {
-        display: none; }
+        display: contents;
+    }
+
+    .nav {
+        display: none !important;
+    }
+
+    .separator {
+        display: none;
+    }
 
     /*TOUR*/
-.container {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: grid;
-    height: auto;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas:
-    "date-1 location-1 country-1 ticket-1"
-    "date-2 location-2 country-2 ticket-2"
-    "date-3 location-3 country-3 ticket-3"
-    "date-4 location-4 country-4 ticket-4";
-    
-    justify-content: left space-between;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-left: 5%;
-    align-content: center; 
-    background-color: rgb(237,192,177);
-    flex-wrap: wrap;
-    
-}
+    .container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+            "date-1 location-1 country-1 ticket-1"
+            "date-2 location-2 country-2 ticket-2"
+            "date-3 location-3 country-3 ticket-3"
+            "date-4 location-4 country-4 ticket-4";
+
+        justify-content: left space-between;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-left: 5%;
+        align-content: center;
+        background-color: rgb(237, 192, 177);
+        flex-wrap: wrap;
+    }
+
     /*STORE GRID*/
 
     /*GRIDS CDS*/
-    .container-articles .cds{
+    .container-articles .cds {
         pointer-events: none;
         display: grid;
         margin-top: 5%;
         margin-bottom: 5%;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6,0.2fr);
+        grid-template-rows: repeat(6, 0.2fr);
         grid-template-areas:
-        "cd-1"
-        "cd-1-title"
-        "cd-2"
-        "cd-2-title"
-        "cd-3"
-        "cd-3-title"
+            "cd-1"
+            "cd-1-title"
+            "cd-2"
+            "cd-2-title"
+            "cd-3"
+            "cd-3-title"
         ;
 
     }
 
     /*CDS*/
-    .cd-img-1{
+    .cd-img-1 {
         width: 250px;
     }
+
     .cd-1-title {
         margin-top: 2%;
     }
-    .cd-img-2{
+
+    .cd-img-2 {
         width: 250px;
     }
+
     .cd-2-title {
         margin-top: 2%;
     }
 
-    .cd-img-3{
+    .cd-img-3 {
         width: 250px;
     }
+
     .cd-3-title {
         margin-top: 2%;
     }
 
     /*GRIDS VINYL*/
-    .container-articles .vinyl{
+    .container-articles .vinyl {
         pointer-events: none;
         display: grid;
         margin-top: 5%;
@@ -85,39 +94,43 @@
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 0.2fr);
         grid-template-areas:
-        "vinyl-1"
-        "vinyl-1-title"
-        "vinyl-2"
-        "vinyl-2-title"
-        "vinyl-3"
-        "vinyl-3-title"
+            "vinyl-1"
+            "vinyl-1-title"
+            "vinyl-2"
+            "vinyl-2-title"
+            "vinyl-3"
+            "vinyl-3-title"
         ;
 
     }
 
     /*VINYL*/
-    .vinyl-img-1{
+    .vinyl-img-1 {
         width: 250px;
     }
+
     .vinyl-1-title {
         margin-top: 2%;
     }
-    .vinyl-img-2{
+
+    .vinyl-img-2 {
         width: 250px;
     }
+
     .vinyl-2-title {
         margin-top: 2%;
     }
 
-    .vinyl-img-3{
+    .vinyl-img-3 {
         width: 250px;
     }
+
     .vinyl-3-title {
         margin-top: 2%;
     }
 
     /*GRIDS POSTERS*/
-    .container-articles .posters{
+    .container-articles .posters {
         pointer-events: none;
         display: grid;
         margin-top: 5%;
@@ -125,93 +138,103 @@
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 0.2fr);
         grid-template-areas:
-        "poster-1"
-        "poster-1-title"
-        "poster-2"
-        "poster-2-title"
-        "poster-3"
-        "poster-3-title"
+            "poster-1"
+            "poster-1-title"
+            "poster-2"
+            "poster-2-title"
+            "poster-3"
+            "poster-3-title"
         ;
 
     }
 
-        /*POSTER*/
-        .poster-img-1{
-            width: 250px;
-        }
-        .poster-1-title {
-            margin-top: 2%;
-        }
-        .poster-img-2{
-            width: 250px;
-        }
-        .poster-2-title {
-            margin-top: 2%;
-        }
+    /*POSTER*/
+    .poster-img-1 {
+        width: 250px;
+    }
 
-        .poster-img-3{
-            width: 250px;
-        }
-        .poster-3-title {
-            margin-top: 2%;
+    .poster-1-title {
+        margin-top: 2%;
+    }
 
-        }
+    .poster-img-2 {
+        width: 250px;
+    }
 
-        .nav {
-            display: none !important;
-        }
-        
-        .nav-mobile {
-            display: contents;
-        }
-        
-        h2 {
-            border-top: 1px black solid;
-            border-bottom: 1px black solid;
-            margin-top: 90px;
-        }
-        
-        .offcanvas-body  {
-            font-size: medium;
-            
-        }
-        
-        .pe-1 {
-            display: flex;
-            flex-direction: column;
-            row-gap: 10px;
-            justify-content: center;  
-            border-width: 5rem;    
-        
-        }
-        
-        .container {
-            font-size: 0.5rem;
-        }
-        
-        .img{
-            padding-top: 5rem;
-            padding-bottom: 2rem;
-        }
-        .review-ctn .pic{
-            margin-left: -40px;
-            padding: 0;
-            font-size: small;
-            text-align: center;
-            flex-wrap: wrap;
-            width: 70%;
-        }
-        .swb-out-grid{
-            width: 70%;
-            justify-self: center;
-            justify-content: center;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows:  200px 250px 450px;
-            grid-template-areas:
+    .poster-2-title {
+        margin-top: 2%;
+    }
+
+    .poster-img-3 {
+        width: 250px;
+    }
+
+    .poster-3-title {
+        margin-top: 2%;
+
+    }
+
+    .nav {
+        display: none !important;
+    }
+
+    .nav-mobile {
+        display: contents;
+    }
+
+    h2 {
+        border-top: 1px black solid;
+        border-bottom: 1px black solid;
+        margin-top: 90px;
+    }
+
+    .offcanvas-body {
+        font-size: medium;
+
+    }
+
+    .pe-1 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+        border-width: 5rem;
+
+    }
+
+    .container {
+        font-size: 0.5rem;
+    }
+
+    .img {
+        margin: auto;
+        margin-top: 20%;
+        display: block;
+        width: 50%;
+        padding: 1%;
+        border-radius: 30px;
+    }
+
+    .review-ctn .pic {
+        margin-left: -40px;
+        padding: 0;
+        font-size: small;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+    .swb-out-grid {
+        width: 70%;
+        justify-self: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 250px 450px;
+        grid-template-areas:
             "carousel"
             "review"
             "pic"
-            ;
-        }
+        ;
     }
+}
