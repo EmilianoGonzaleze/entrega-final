@@ -104,7 +104,7 @@ footer {
     font-weight: 100;
     font-size: 30px; }
   .subscribe-box .subscribe {
-    width: 100%;
+    width: 80%;
     max-width: 600px;
     margin: auto; }
     .subscribe-box .subscribe input {
@@ -216,7 +216,7 @@ body {
     font-weight: 100;
     font-size: 30px; }
   .join-box .subscribe {
-    width: 100%;
+    width: 80%;
     max-width: 600px;
     margin: auto; }
     .join-box .subscribe input {
