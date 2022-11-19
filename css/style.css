@@ -810,7 +810,6 @@ div:nth-child(4) {
   /*STORE GRID*/
   /*GRIDS CDS*/
   .container-articles .cds {
-    pointer-events: none;
     display: grid;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -832,7 +831,6 @@ div:nth-child(4) {
     margin-top: 2%; }
   /*GRIDS VINYL*/
   .container-articles .vinyl {
-    pointer-events: none;
     display: grid;
     margin-top: 5%;
     margin-bottom: 5%;
