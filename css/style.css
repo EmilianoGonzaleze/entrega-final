@@ -408,8 +408,10 @@ a {
   color: inherit;
   border-style: none; }
 
-a:hover {
-  color: #003fa3; }
+.a-ticket:hover {
+  color: #003fa3;
+  border: 1px solid #003fa3;
+  padding: 5%; }
 
 .ticket {
   text-decoration: line-through #003fa3; }

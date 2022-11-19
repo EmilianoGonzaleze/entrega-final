@@ -120,8 +120,10 @@ a {
 }
 
 
-a:hover {
+.a-ticket:hover {
     color: rgb(0, 63, 163);
+    border: 1px solid rgb(0, 63, 163);
+    padding: 5%;
 }
 .ticket{
     text-decoration: line-through rgb(0, 63, 163);
